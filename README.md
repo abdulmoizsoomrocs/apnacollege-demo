@@ -1,3 +1,3 @@
 # apnacollege-demo
 this is my first git repository
-author abdul moiz
+author abdul moiz (Soomro)
