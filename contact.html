@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact - Apna College Demo</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f5f7fb;
+            color: #333;
+        }
+        header {
+            background-color: #0e6ba8;
+            color: white;
+            padding: 1rem 1.5rem;
+        }
+        main {
+            padding: 1.5rem;
+            max-width: 720px;
+            margin: 0 auto;
+        }
+        form {
+            background: white;
+            padding: 1.5rem;
+            border-radius: 6px;
+            box-shadow: 0 2px 6px rgba(0, 0, 0, 0.08);
+        }
+        label {
+            display: block;
+            margin-top: 1rem;
+            font-weight: bold;
+        }
+        input, textarea {
+            width: 100%;
+            padding: 0.7rem;
+            margin-top: 0.35rem;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            font-size: 1rem;
+        }
+        button {
+            margin-top: 1rem;
+            padding: 0.75rem 1.2rem;
+            background-color: #0e6ba8;
+            color: white;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            font-size: 1rem;
+        }
+        button:hover {
+            background-color: #09507c;
+        }
+        .back-link {
+            display: inline-block;
+            margin-bottom: 1rem;
+            color: #0e6ba8;
+            text-decoration: none;
+            font-weight: 600;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Contact Me</h1>
+        <p>Thanks for checking out the project. I'd love to hear from you!</p>
+    </header>
+    <main>
+        <a class="back-link" href="index.html">&larr; Back to Home</a>
+        <p>Please fill out the form below to send a message. All fields are required.</p>
+        <form>
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" placeholder="Your full name" required>
+
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" placeholder="you@example.com" required>
+
+            <label for="message">Message</label>
+            <textarea id="message" name="message" rows="5" placeholder="Tell me how I can help" required></textarea>
+
+            <button type="submit">Send Message</button>
+        </form>
+    </main>
+</body>
+</html>
